@@ -25,7 +25,6 @@ const ToDo = () => {
 		})
 		setTodos(list)
 	}
-
 	const handleRemove = (item) => {
 		const ItemRemoved = todos.filter((element) => item.id !== element.id)
 		setTodos(ItemRemoved)
